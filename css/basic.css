@@ -1,0 +1,180 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: "微软雅黑";
+}
+body{
+
+}
+a{
+	text-decoration: none;
+
+}
+a:hover{
+	cursor: pointer;
+}
+li{
+	list-style: none;
+}
+h1 ,h2 ,h3 ,h4 ,h5 ,h6{
+  	font-weight: normal;
+  }
+.header{
+	height:77px;
+	width:100%;
+	border-top:3px solid #FF571A;
+	border-bottom:1px solid #DCDCDC;
+	
+}
+.top{
+	width:1200px;
+	margin:0 auto;
+
+}
+.top a:hover{
+	color:#FF5517;
+}
+.top .log{
+	height:38px;width:74px;
+	display: block;
+	margin-top:20px;
+	float:left;
+}
+.top input.dq{
+	float:left;
+	height:28px;
+	width:86px;
+	margin:26px 0 0 18px;
+	line-height: 28px;
+	text-align: center;
+	border:1px solid #EDEDED;
+}
+
+.top ul{	
+		margin-left:10px; 
+		float: left;
+}
+.top ul li{	
+	display: block;
+	float:left;
+	padding-left:40px;
+	padding-top:35px;
+
+}
+.top ul li a{
+	color:#464646;
+	font-size:14px;
+
+}
+.top .serch{
+	float:left;
+	height:26px;
+	width:216px;
+	margin:24px 0 0 38px;	
+	color:#999;
+	border:2px solid #EDEDED;
+}
+.top .serch input{
+	width:190px;
+	border:none;
+	float:left;
+	font-size: 12px;
+	color:#999;
+	text-indent: 5px;
+	line-height: 26px;
+}
+.top .serch .serch-1{
+	height:18px;width:18px;
+	margin:6px 8px 0 0;
+	float:right;
+	background: url(../images/head-sprite.png) no-repeat 0 -34px;
+
+}
+.top .zc{
+	width:110px;
+	float:left;
+	margin : 34px 0 0 48px;
+	border-right:1px solid #EEE;
+}
+.top .zc a{
+	color:#333;
+	font-size:12px;
+	padding-left:16px;
+	line-height: 12px;
+
+}
+.top .phone{
+	float:left;
+	height:16px;width:119px;
+	margin:36px 0 0 22px;
+	background: url(../images/phone-num.png) no-repeat;
+}
+.content {
+	height:600px;
+	
+
+}
+.footer{
+	clear: both;
+	height:336px;
+	background: #1F1F1F;
+}
+.footer .w1200{
+	width:1200px;
+	margin:0 auto;
+}
+.footer .w1200 .footguide{
+	width:170px; 
+	float:left;
+	margin:30px 0 36px 0;
+	padding-left: 10px
+
+}
+.footer .w1200 .footguide h2{
+	font-size: 14px;
+	color:white;
+	margin-bottom: 12px;
+}
+.footer .w1200 .footguide p{
+	color:#999;
+	font-size: 12px;
+	line-height: 26px;
+}
+.footer .w1200 .ewm{
+	float:right;
+	width:158px; height:110px;	
+	margin: 30px 240px 0 0;
+}
+.footer .w1200 .ewm img{
+	margin:0 46px 10px 46px;
+}
+.footer .w1200 .ewm i{
+	font-size: 14px;
+	color:#666;
+	font-style: normal;
+}
+.footer .city{
+	clear:both;
+	width:1200px;
+	margin:0 auto;
+	font-size: 12px;
+	color: white;
+	line-height: 26px;
+	color:#999;	
+
+}
+.footer .city a{
+	font-size: 12px;
+	padding: 0 8px;
+	color:#999;
+}
+.footer .city a:hover{
+	color:#FF5517;
+}
+.footer .copy{
+	width:1200px;
+	margin:0 auto;
+	margin-top: 36px;
+	font-size: 12px;
+	color:#999;
+}

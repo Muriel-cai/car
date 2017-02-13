@@ -1,0 +1,44 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: "微软雅黑";
+}
+body{
+
+}
+a{
+	text-decoration: none;
+
+}
+li{
+	list-style: none;
+}
+
+.main{
+	width:1200px;height:2000px;
+	margin:0 auto;
+}
+.main h1{
+	font-size:20px;
+	color:#333;
+	line-height: 70px;
+}
+.main h2{
+	margin:16px 0px;
+	font-size:16px;
+	color:#444;
+	line-height: 22px;
+}
+.main p{
+	font-size:14px;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+.main p a{
+	margin-right:10px;
+	color:#666;
+
+}
+.main p a:hover{
+	color:#FF571A;
+}
