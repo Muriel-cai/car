@@ -97,7 +97,7 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6{
 	color:#FF571A;
 }
 .indoc .js a:hover .wb img{
-
+	width:100%;height:100%;
 }
 .indoc .js a .wb{
 	height:100%;width:286px;

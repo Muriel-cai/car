@@ -37,7 +37,7 @@ arr[a].classList.add("over");
 var play=function(){
  		b=a;
 	 a<arr.length-1 ? a++ : a=0;
-	 console.log(a);
+	
 	 	 arr[b].classList.remove("over");
 	 	 arr[a].classList.add("over");
 	 	 
