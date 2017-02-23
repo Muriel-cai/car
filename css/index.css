@@ -99,7 +99,11 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6{
 	color:#FF571A;
 }
 .indoc .js a:hover .wb img{
+<<<<<<< HEAD
 	margin-left:-10px;
+=======
+	width:100%;height:100%;
+>>>>>>> 71a8a536a42fa304c7deeed6975cf4143d1bd42c
 }
 .indoc .js a .wb{
 	height:100%;width:286px;

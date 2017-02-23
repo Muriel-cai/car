@@ -29,7 +29,6 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6{
 .top{
 	width:1200px;
 	margin:0 auto;
-
 }
 .top a:hover{
 	color:#FF5517;
@@ -39,6 +38,7 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6{
 	display: block;
 	margin-top:20px;
 	float:left;
+
 }
 .top input.dq{
 	float:left;
@@ -127,7 +127,7 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6{
 	width:170px; 
 	float:left;
 	margin:30px 0 36px 0;
-	padding-left: 10px
+	padding-left: 10px;
 
 }
 .footer .w1200 .footguide h2{
@@ -136,8 +136,12 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6{
 	margin-bottom: 12px;
 }
 .footer .w1200 .footguide a{
+<<<<<<< HEAD
 	display: block;
+=======
+>>>>>>> 71a8a536a42fa304c7deeed6975cf4143d1bd42c
 	color:#999;
+	display: block;
 	font-size: 12px;
 	line-height: 26px;
 }
