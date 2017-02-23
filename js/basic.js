@@ -1,19 +1,67 @@
 var guidedata=[
 {
 	title:"导购大全",
-	infor:["城市大全" ,"品牌大全 ","车系大全"]
+	infor:[
+		{
+			title:"城市大全" ,
+			href:"city.html"
+		},
+		{
+			title:"品牌大全 ",
+			href:"carseries.html"
+		},
+		{
+			title:"车系大全",
+			href:"carbrand.html"
+		}
+	]
 },
 {
 	title:"购车指南",
-	infor:["如何挑选二手车","如何判断事故火烧水车","二手车指标说明"]
+	infor:[
+		{
+			title:"如何挑选二手车",
+			href:"how.html"
+		},
+		{
+			title:"如何判断事故火烧水车",
+			href:"how2.html"
+		},
+		{
+			title:"二手车指标说明",
+			href:"target.html"
+		}
+	]
 },
 {
 	title:"关于我们",
-	infor:["大搜车理念","牛车","大风车","大搜车手机版"]
+	infor:[
+		{
+			title:"大搜车理念",
+			href:"prac.html"
+		},
+		{
+			title:"牛车",
+			href:"##"
+		},
+		{
+			title:"大风车",
+			href:"##"
+		},
+		{
+			title:"大搜车手机版",
+			href:"##"
+		}
+	]
 },
 {
 	title:"联系我们",
-	infor:["联系电话"]
+	infor:[
+		{
+			title:"联系电话",
+			href:"coll.html"
+		}	
+	]
 }
 ];
 var foot=document.querySelector(".w1200");
@@ -23,15 +71,18 @@ var foot=document.querySelector(".w1200");
 			div.className="footguide";	
 			h2.appendChild(document.createTextNode(option.title));
 
-			div.appendChild(h2);		
-			var a=0,
-			arrlen=option.infor.length;
-			while(a<arrlen){
-				p1=document.createElement("p");
-				p1.appendChild(document.createTextNode(option.infor[a++]));
-				div.appendChild(p1);	
-				div.appendChild(p1);			
+			div.appendChild(h2);	
+			var carinfor=option.infor;
+
+			function cinfor(option1){
+				var a=document.createElement("a");
+				a.appendChild(document.createTextNode(option1.title));
+				a.href=option1.href;
+				return a;
 			}
+			carinfor.forEach(function(option1){
+				div.appendChild(cinfor(option1));
+			});
 			return div
 	}
 

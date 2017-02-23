@@ -2,29 +2,26 @@
 var indexmain=document.querySelector(".indexmain");
 
  var iamgesdata=[
- {
- 	title:"",
- 	url:"./images/top1.jpg"
-
- },
- {
- 	title:"",
- 	url:"./images/top2.jpg"
- 	
- },
- {
- 	title:"",
- 	url:"./images/top3.jpg"
-
- }
+	{
+		title:"",
+		url:"./images/top1.jpg"
+	},
+	{
+		title:"",
+		url:"./images/top2.jpg"		
+	},
+	{
+		title:"",
+		url:"./images/top3.jpg"
+	}
  ]
 
-	function banner(option1,option2){		
-		var a=document.createElement("a");
-			a.appendChild(document.createTextNode(option1))
-		a.style.background="url(" + option2 + ")";
-			return a	
-	};
+function banner(option1,option2){		
+	var a=document.createElement("a");
+		a.appendChild(document.createTextNode(option1))
+	a.style.background="url(" + option2 + ")";
+		return a	
+};
 var arr=iamgesdata.map(function(item){
 	var	img=document.createElement("img");
 	img=banner(item.title,item.url);
@@ -71,19 +68,9 @@ div2.onclick=function(){
 	arr[b].classList.remove("over");
 	console.log(arr[a]);
 
-	}
-
- 
+	} 
 indexmain.appendChild(div1);
 indexmain.appendChild(div2);
-
-
-
-
-
-
-
-
 
 var indocdata=[
 	{
@@ -137,7 +124,6 @@ var indocdata=[
   			div.appendChild(img);
   			a.appendChild(div);
   			return a
-
   }		
 indocdata.forEach(function(item){
 		js.appendChild(mw(item))

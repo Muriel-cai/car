@@ -135,7 +135,8 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6{
 	color:white;
 	margin-bottom: 12px;
 }
-.footer .w1200 .footguide p{
+.footer .w1200 .footguide a{
+	display: block;
 	color:#999;
 	font-size: 12px;
 	line-height: 26px;

@@ -1,3 +1,4 @@
+/**
 *{
 	margin:0;padding:0;
 	font-family: "微软雅黑";
@@ -75,11 +76,13 @@
 	display: none;
 
 }
+**/
 /**
 .left .leftnav .select .box.display ul{
 	display: none;
 }
 **/
+/**
 .left .leftnav .select .box ul li{
 	height:26px;width:197px;
 	line-height: 26px;
@@ -89,23 +92,11 @@
 .left .leftnav .select .box ul li:hover{
 	background:#FF5517;
 }
-
-
-
-
-
-
-
-
-
-
 .main .right{
 	position: relative;
 	width:1038px;
 	float:right;
 }
-
-
 .right .infor{
 	width:1080px;
 	height:2000px;
@@ -122,7 +113,6 @@
 	margin-bottom:14px;
 	height:160px;width:240px;
 	background: no-repeat;
-
 }
 .infor .car .vehicle{	
 	display: block;
@@ -133,7 +123,6 @@
 	font-size:14px;
 	color:#333;
 	margin-bottom: 12px;
-
 }
 .infor .car h3{
 	height:16px;width:205px;
@@ -147,7 +136,6 @@
 	margin:10px auto 24px;
 	color:#999;
 	font-size: 12px;
-
 }
 .infor .car .auth{
 	width:205px;
@@ -167,7 +155,6 @@
 	background: #F5F5F5;
 	border:1px solid #E6E6E6;
 	margin: 0 0 0 18px;
-
 }
 .main .right .subnav{
 	position:fixed;
@@ -179,7 +166,6 @@
 	border:1px solid #E6E6E6;
 }
 .right .cz ul{
-
 }
 .right .cz ul li{
 	height:38px;width:106px;
@@ -191,16 +177,176 @@
 	line-height: 38px;
 	border-right:1px solid #E6E6E6;
 }
-.right .fy{
+**/
+
+.main{
+	height:2000px;
+	margin:0 auto;
+  	margin-top:20px;
+}
+.main .left{
+	float:left;
+	width:242px;
+	margin-left:30px;
+}
+.main .left .top{
+	width:240px;
+	height:39px;
+	background-color: #F5F5F5;
+	border:1px solid #E6E6E6;
+}
+.main .left .bottom h2{
+	font-size:14px;
+	line-height:18px;
+}
+.main .left .bottom{
+	padding:0 16px;
+	width:208px;
+	border:1px solid #E6E6E6;
+}
+.main .left .bottom .select{
+	position:relative;
+	margin:10px 0 20px;
+	width:206px;
+	height:30px;
+	border:1px solid #E6E6E6;
+	cursor:pointer;
+}
+.main .left .bottom .select.normal ul{
+	display:none;
+}
+.main .left .bottom .select.current{
+	z-index:1;
+}
+.main .left .bottom .select:hover span{
+	color:#FF581A;
+}
+.main .left .bottom .select span{
+	margin-left:10px;
+	font-size:12px;
+	line-height:30px;
+	color:#AFAFAF;
+}
+.icon2.down{
+	position:absolute;
+	top:12px;
+	right:8px;
+	width:14px;
+	height:8px;
+	background-position:-8px -134px;
+}
+.main .left .bottom .select ul{
+	position:absolute;
+	top:25px;
+	left:-1px;
+	width:100%;
+	border:1px solid #E6E6E6;
+}
+.main .left .bottom .select ul li{
+	padding-left:20px;
+	height:25px;
+	background-color:white;
+	font-size:12px;
+	line-height:25px;
+	color:#676464;
+}
+.main .left .bottom .select ul li:hover{
+	background-color:#FF581A;
+	color:white;
+}
+/*右侧*/
+/*商品列表*/
+.main .right{
+	float:right;
+	width:1020px;
+	margin-right: 30px;
+}
+.main .right .bottom{
+	width:100%;
+}
+.main .right .bottom .container{
+	width:1040px;
+}
+.main .right .bottom .container .box{
+	position:relative;
+	float:left;
+	margin-top:20px;
+	margin-right:20px;
+	width:240px;
+	height:320px;
+	background-repeat:no-repeat;
+	background-size:100% 160px;
+}
+.main .right .bottom .container .box .detail{
+	position:absolute;
+	bottom:0;
+	padding:0 14px;
+	width:210px;
+	height:159px;
+	border-width:0 1px 1px;
+	border-style:solid;
+	border-color:#E6E6E6;
+}
+.main .right .bottom .container .box .detail a{
+	position:absolute;
+	top:-160px;
+	left:0;
+	padding:170px 16px;
+	height:44px;
+	font-size:14px;
+	line-height:22px;
+	word-break:break-all;
+	color:#333;
+}
+.main .right .bottom .container .box .detail .price{
+	margin-top:60px;
+	font-size:16px;
+	font-weight:bold;
+	color:#FF581A;
+}
+.main .right .bottom .container .box .detail .content{
+	margin-top:9px;
+	font-size:12px;
+	color:#999;
+}
+.main .right .bottom .container .box .detail .mark{
+	position:absolute;
+	bottom:0;
+	width:210px;
+	height:37px;
+	border-top:1px solid #E6E6E6;
+}
+.main .right .bottom .container .box .detail .mark em{
+	padding:0 3px;
+	background-color:#60B25E;
+	font-size:12px;
+	line-height:37px;
+	color:white;
+}
+.main .right .bottom .container .box .sold{
+	position:absolute;
+	top:40px;
+	left:50%;
+	margin-left:-39px;
+	width:78px;
+	height:78px;
+	background-color:#E6E6E6;
+	text-align:center;
+	font-size:24px;
+	line-height:78px;
+	color:#A2A2A2;
+	opacity:.8;
+	border-radius:50%;
+}
+.main .right .butnav{
 	width:456px;
 	margin:0 auto;
-
 }
-.right .fy li{
+.main .right .butnav ul li{
 	display: block;
 	float:left;
 	margin:50px 0 144px 0;
-	height: 38px;width:38px;
+	height: 34px;width:34px;
 	margin-left:4px;
 	line-height: 38px;
 	text-align: center;
@@ -208,12 +354,9 @@
 	color:#666;
 	border:1px solid #E6E6E6;
 }
-
-
-
-
-
-
+.bottomNav{
+	margin-top:400px;
+}
 
 
 
